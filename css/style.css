@@ -1,5 +1,37 @@
 .message-box {
-    border: 2px solid #000;
+    border: 1px solid #000;
+    border-radius: 10px;
     width: 200px;
     height: 40px;
+    margin: 10px auto;
+    line-height: 40px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: 4px 2px;
+    box-shadow: 2px 2px 1px #ccc;
+}
+
+.info {
+    background-color: #E9C6F5;
+    border-color: #8F7399;
+    background-image: url(images/info.png);
+}
+
+.success {
+    background-color: #52DE6C;
+    border-color: #357541;
+    background-image: url(images/success.png);
+}
+
+.warning {
+    background-color: #D5DB56;
+    border-color: #909447;
+    background-image: url(images/warning.png);
+}
+
+.error {
+    background-color: #DE8A8A;
+    border-color: #8A2C2C;
+    background-image: url(images/error.png);
 }
